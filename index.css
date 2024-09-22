@@ -168,14 +168,14 @@ navbar{
     display: none; 
 }
 .card-link {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Use the text color from the card */
+    text-decoration: none; 
+    color: inherit; 
 }
 .card-block{
-    position: relative; /* Position for overlay */
-    width: 390px; /* Minimum width for each card */
+    position: relative;
+    width: 390px; 
     height: 370px;
-    flex-shrink: 0; /* Prevent cards from shrinking */
+    flex-shrink: 0; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -317,10 +317,6 @@ navbar{
         height:70vh;
         gap:8px;
         margin-top:0px; 
-        /* justify-content:space-evenly;
-        text-align:center;
-        height:40vh;
-        margin-top:10vh;  */
     }
     .contact-details{
         display: flex;
@@ -448,7 +444,7 @@ navbar{
     }
     .footer-card {
         height: 200px;
-        width: 210px;
+        width: 220px;
     }
     .project-block{
         flex-direction: column;
