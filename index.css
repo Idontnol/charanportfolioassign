@@ -444,6 +444,7 @@ navbar{
     }
     .nav-mobile-menu{
         display:block;
+        margin-right:4px;
     }
     .footer-card {
         height: 200px;
@@ -456,7 +457,7 @@ navbar{
     }
     .card-block{
     
-        width: 210px; 
+        width: 240px; 
         height: 250px;
         
         overflow: hidden; 

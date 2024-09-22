@@ -6,6 +6,12 @@ const projects = [
         description: "A website to share interesting facts among the community."
     },
     {
+        title: "Dandeli Trip Zone",
+        image:"./project-4.png",
+        demoLink: "http://dandelitripzone.com/",
+        description: "A website I created for a tourism service that showcases various packages, destinations, and activities."
+    },
+    {
         title: "File Manager",
         image:"./project-3.png",
         demoLink: "https://filesyncpro.vercel.app/",
@@ -17,12 +23,7 @@ const projects = [
         demoLink: "https://glimps.netlify.app/",
         description: "A webiste to generate your favourite images"
     },
-    {
-        title: "Glimps",
-        image:"./project-2.png",
-        demoLink: "https://glimps.netlify.app/",
-        description: "A webiste to generate your favourite images"
-    },
+    
     {
         title: "Glimps",
         image:"./project-2.png",
