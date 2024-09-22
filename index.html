@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charan Praveen's Portfolio</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+     <navbar class="">
+        <div class="navbar-container">
+            <h1 class="">Charan Praveen</h1>
+            <div class="nav-menu">
+                <a href="/#about"  class="">
+                    <h2>About</h2>
+                </a>
+                <a href="/#projects"  class="">
+                    <h2>Projects</h2>
+                </a>
+                <a href="/#contact"  class="">
+                    <h2 >Contact</h2>
+                </a>
+                <a href="/#footer"  class="">
+                    <h2>Footer</h2>
+                </a>
+            </div>
+            <div class="nav-mobile-menu" id="navMobileMenu">
+                <i class="fa-solid fa-bars" id="menuIcon"></i>
+            </div>
+        </div>
+     </navbar>
+
+     <!-- about section -->
+    <div class="about-section" id="about">
+        <div class="about-content">
+            <h1 class="about-title">Hola, I am Charan Praveen</h1>
+            <h3 class="about-subtitle">I am a <span class="roles-text"></span> </h3>
+            <p class="about-description">
+                Welcome to my portfolio! I'm Charan Praveen, a full-stack developer with a passion for building elegant and functional web experiences. Whether you're browsing to check out my skills or curious to collaborate on a project, I'm glad you're here!. From sleek user interfaces to robust data architectures, my diverse portfolio showcases my ability to tackle projects of varying complexity and scope.
+            </p>
+            <a href="charan_resume.pdf" download>
+                <button class="download-button">
+                    Download CV
+                </button>
+            </a>
+            
+        </div>
+
+        <img src="./portfolio.jpeg" alt="developer-photo" class="developer-photo">
+    </div>
+
+    <!-- project section -->
+     <div class="project-section" id="projects">
+        <div class="">
+            <h1 class="">My <span class="ac">Projects</span> </h1>
+
+        </div>
+        
+        <div id="my-projects" class="project-block">
+
+        </div>
+     </div>
+
+     <!-- contact section -->
+     <div class="contact-bigContainer" id="contact">
+        <h1 class=""> <span class="ac">Contact</span>  Me</h1>
+        <p class="">
+           I craft high-performance websites that engage visitors and drive results Contact me today!
+        </p>
+        <div class="contact-container">
+            <div class="contact-details">
+                <div class="detailItem">
+                    <svg class="myColor" stroke="currentColor" fill="currentColor" viewBox="0 0 512 512" height="1em" width="1em">
+                        <path fill="none" stroke-miterlimit="10" stroke-width="32" d="M451 374c-15.88-16-54.34-39.35-73-48.76-24.3-12.24-26.3-13.24-45.4.95-12.74 9.47-21.21 17.93-36.12 14.75s-47.31-21.11-75.68-49.39-47.34-61.62-50.53-76.48 5.41-23.23 14.79-36c13.22-18 12.22-21 .92-45.3-8.81-18.9-32.84-57-48.9-72.8C119.9 44 119.9 47 108.83 51.6A160.15 160.15 0 0 0 83 65.37C67 76 58.12 84.83 51.91 98.1s-9 44.38 23.07 102.64 54.57 88.05 101.14 134.49S258.5 406.64 310.85 436c64.76 36.27 89.6 29.2 102.91 23s22.18-15 32.83-31a159.09 159.09 0 0 0 13.8-25.8C465 391.17 468 391.17 451 374z"></path>
+                    </svg>
+                    <div class="extraSpace">
+                        <strong>Call Me</strong>
+                        <p class="detailLow">+91 9989786348</p>
+                    </div>
+                </div>
+                <div class="detailItem">
+                    <!-- <svg class="myColor" stroke="currentColor" fill="currentColor" viewBox="0 0 24 24" height="1em" width="1em">
+                        <path fill="none" d="M0 0h24v24H0V0z"></path>
+                        <path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0-8 4.99L4 6h16zm0 12H4V8l8 5 8-5v10z"></path>
+                    </svg> -->
+                    <svg class="myColor" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="none" d="M0 0h24v24H0V0z"></path><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0-8 4.99L4 6h16zm0 12H4V8l8 5 8-5v10z">
+                        </path>
+                    </svg>
+                    <!-- <i class="fa-solid fa-envelope " class="contact-email"></i> -->
+                    <div class="detailItemDescription">
+                        <strong>Email</strong>
+                        <p class="detailLow">charanpraveen9989@gmail.com</p>
+                    </div>
+                </div>
+                <div class="detailItem">
+                    <svg class="myColor" stroke="currentColor" fill="currentColor" viewBox="0 0 1024 1024" height="1em" width="1em">
+                        <path d="M515.664-.368C305.76-.368 128 178.4 128 390.176c0 221.76 206.032 448.544 344.624 607.936.528.64 22.929 25.52 50.528 25.52h2.449c27.6 0 49.84-24.88 50.399-25.52 130.064-149.52 320-396.048 320-607.936C896 178.4 757.344-.368 515.664-.368zm12.832 955.552c-1.12 1.12-2.753 2.369-4.193 3.409-1.472-1.008-3.072-2.288-4.255-3.408l-16.737-19.248C371.92 785.2 192 578.785 192 390.176c0-177.008 148.224-326.56 323.664-326.56 218.528 0 316.336 164 316.336 326.56 0 143.184-102.128 333.296-303.504 565.008zm-15.377-761.776c-106.032 0-192 85.968-192 192s85.968 192 192 192 192-85.968 192-192-85.968-192-192-192zm0 320c-70.576 0-129.473-58.816-129.473-129.408 0-70.576 57.424-128 128-128 70.624 0 128 57.424 128 128 .032 70.592-55.903 129.408-126.527 129.408z"></path>
+                    </svg>
+                    <div class="detailItemDescription">
+                        <strong>Location</strong>
+                        <p class="detailLow">Guntur, Andhra Pradesh, India</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-me" onsubmit="sendMail(); return false;">
+                <input type="text" placeholder="Name" class="inpu" required />
+                <input type="email" placeholder="Email" class="inpu" required />
+                <input type="text" placeholder="Subject" class="inpu" required />
+                <textarea placeholder="Message" class="inpuMessage" required></textarea>
+                <button type="submit" class="sendMsg">Send Message</button>
+                <span class="status"></span>
+                <span class="failureStatus"></span>
+            </form>
+        </div>
+    </div>
+    
+
+     <!-- Footer section -->
+    <div class="footer-container" id="footer">
+        <div class="contact-info">
+            <h1 class="">Get in <span class="ac">Touch</span> </h1>
+            <p class="" style="color:black">Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows
+                 you to include only the icons that your project is using.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/katakam.charan.1" aria-label="Facebook" target="_blank" class="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/katakam.charan.1/" aria-label="Instagram" target="_blank" class="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" aria-label="Twitter" target="_blank" class="">
+                    <!-- <i class="fa-brands fa-x-twitter"></i> -->
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/katakam-charan-praveen-kumar-45b6bb239/" target="_blank" aria-label="LinkedIn" class="">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+
+        <a href="https://wa.me/9989786348?text=I%20want%20hire%20you" class="foote" target="_blank">
+            <div class="footer-card">
+                <i class="fa-brands fa-whatsapp "></i>
+                <p class="">Chat with me</p>
+            </div>
+        </a>
+
+        <a href="mailto:charanpraveen9989@gmail.com" class="foote" target="_blank">
+            <div class="footer-card">
+                <i class="fa-solid fa-envelope "></i>
+                <p class=""> charanpraveen9989@gmail.com</p>
+            </div>
+        </a>
+       
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
